@@ -23,32 +23,7 @@ Créer un nouveau repository GitHub :
    git push -u origin main
 ```
 
-2. Structure des fichiers
-Assurez-vous que votre structure de fichiers est la suivante :
-portfolio/
-├── package.json
-├── server.js
-├── vercel.json
-├── README.md
-└── client/
-    ├── package.json
-    ├── public/
-    │   └── index.html
-    └── src/
-        ├── App.js
-        ├── App.css
-        ├── index.js
-        └── components/
-            ├── Header.js
-            ├── Home.js
-            ├── About.js
-            ├── Experience.js
-            ├── Projects.js
-            ├── Skills.js
-            ├── Contact.js
-            └── Footer.js
-
-3. Déployement sur Vercel
+2. Déployement sur Vercel
 
 Via l'interface Vercel :
 
