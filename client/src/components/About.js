@@ -22,7 +22,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          À propos de moi
+          About me
         </motion.h2>
         
         <motion.div 
@@ -62,9 +62,9 @@ const About = () => {
             >
               <h3 style={{ color: '#ffffff', marginBottom: '1rem' }}>Formation</h3>
               <p style={{ color: '#cccccc' }}>
-                Master en Ingénierie Logicielle, Data, Cloud<br />
+                Sofware Engineering Student<br />
                 <strong>Télécom SudParis</strong><br />
-                2023 - Présent
+                2023 - now
               </p>
             </motion.div>
             
@@ -79,7 +79,7 @@ const About = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <h3 style={{ color: '#ffffff', marginBottom: '1rem' }}>Localisation</h3>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem' }}>Location</h3>
               <p style={{ color: '#cccccc' }}>
                 📍 {profile.location}
               </p>
@@ -96,9 +96,9 @@ const About = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
-              <h3 style={{ color: '#ffffff', marginBottom: '1rem' }}>Objectif</h3>
+              <h3 style={{ color: '#ffffff', marginBottom: '1rem' }}>My Goal</h3>
               <p style={{ color: '#cccccc' }}>
-                Stage de 6 mois à partir de février 2026
+                Looking for a 6-month internship starting February 2026
               </p>
             </motion.div>
           </div>

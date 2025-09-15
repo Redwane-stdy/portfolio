@@ -41,8 +41,7 @@ const Contact = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <p style={{ fontSize: '1.2rem', color: '#cccccc', marginBottom: '3rem' }}>
-            Intéressé par mon profil ? N'hésitez pas à me contacter pour discuter de vos projets 
-            ou d'opportunités de collaboration.
+            Contact me to discuss about your projects or collaboration opportunities.
           </p>
           
           <div className="contact-info">
@@ -82,7 +81,7 @@ const Contact = () => {
               className="btn btn-primary"
               style={{ fontSize: '1.1rem' }}
             >
-              Envoyer un message
+              Send a message
             </a>
           </motion.div>
         </motion.div>

@@ -8,10 +8,10 @@ const Header = () => {
 
   const navItems = [
     { path: '/', label: 'Accueil' },
-    { path: '/about', label: 'À propos' },
-    { path: '/experience', label: 'Expérience' },
+    { path: '/about', label: 'About me' },
+    { path: '/experience', label: 'Experience' },
     { path: '/projects', label: 'Projets' },
-    { path: '/skills', label: 'Compétences' },
+    { path: '/skills', label: 'Skills' },
     { path: '/contact', label: 'Contact' }
   ];
 
@@ -24,7 +24,7 @@ const Header = () => {
     >
       <div className="nav-container">
         <Link to="/" className="logo">
-          Redwane Aitbrahim
+          Redwane Ait Brahim
         </Link>
         
         <nav>

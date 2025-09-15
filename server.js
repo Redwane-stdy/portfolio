@@ -19,11 +19,11 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 // API Routes
 app.get('/api/profile', (req, res) => {
   res.json({
-    name: "Redwane Aitbrahim",
+    name: "Redwane Ait Brahim",
     title: "Software Engineer",
     email: "redwane.aitbrahim67@gmail.com",
     phone: "+33767336612",
-    location: "Palaiseau, France",
+    location: "16 Avenue Emile Baudot, Palaiseau, France",
     linkedin: "https://linkedin.com/in/redwane-aitbrahim",
     github: "https://github.com/Redwane-stdy",
     description: "Master student in Software Engineering at Télécom SudParis. Eager to design, develop, and deploy scalable, high-quality systems that enhance digital experiences in an innovative environment."
@@ -110,7 +110,7 @@ app.get('/api/skills', (req, res) => {
     languages: ["Python", "Java", "C", "Javascript", "SQL", "C#"],
     frontend: ["React.js", "HTML", "CSS"],
     backend: ["Node.js", "Express.js", "Spring Boot", ".NET"],
-    databases: ["PostgreSQL", "MongoDB"],
+    databases: ["PostgreSQL", "MySQL"],
     devops: ["Docker", "Git", "Linux", "CI/CD", "Google Cloud"],
     spokenLanguages: ["French (Native)", "English (Fluent)"]
   });

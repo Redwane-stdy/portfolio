@@ -45,9 +45,9 @@ const Footer = () => {
           </a>
         </div>
         
-        <p>&copy; 2025 Redwane Aitbrahim. Tous droits réservés.</p>
+        <p>&copy; 2025 Redwane Ait Brahim. All rights reserved.</p>
         <p style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
-          Développé avec React & Node.js
+          Developped with React & Node.js
         </p>
       </div>
     </footer>

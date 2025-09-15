@@ -56,10 +56,10 @@ const Home = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <Link to="/projects" className="btn btn-primary">
-              Voir mes projets
+              See my projects
             </Link>
             <Link to="/contact" className="btn btn-outline">
-              Me contacter
+              Contact me
             </Link>
           </motion.div>
         </motion.div>

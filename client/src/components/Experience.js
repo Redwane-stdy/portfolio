@@ -20,7 +20,7 @@ const Experience = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Expérience Professionnelle
+          Experience
         </motion.h2>
         
         <div className="experience-list">
