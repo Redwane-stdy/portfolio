@@ -14,12 +14,12 @@ const Skills = () => {
   if (!skills) return <div>Loading...</div>;
 
   const skillCategories = [
-    { title: 'Langages de Programmation', skills: skills.languages },
+    { title: 'Programming', skills: skills.languages },
     { title: 'Frontend', skills: skills.frontend },
     { title: 'Backend', skills: skills.backend },
-    { title: 'Bases de Données', skills: skills.databases },
-    { title: 'DevOps & Outils', skills: skills.devops },
-    { title: 'Langues', skills: skills.spokenLanguages }
+    { title: 'Database', skills: skills.databases },
+    { title: 'DevOps & Tools', skills: skills.devops },
+    { title: 'Languages', skills: skills.spokenLanguages }
   ];
 
   return (
