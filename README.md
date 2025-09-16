@@ -1,4 +1,4 @@
-### Portfolio Redwane Aitbrahim 
+### Portfolio Redwane Ait Brahim 
 Portfolio professionnel développé avec React.js et Node.js, design noir et blanc minimaliste.
 Déployement sur Vercel
 
@@ -39,6 +39,9 @@ Via Vercel CLI (optionnel) :
 ```bash
    npm i -g vercel
 ```
+
+3. Attention
+Vérifier les versions de node.js
 
 4. Configuration Vercel
 Vercel utilisera automatiquement le fichier vercel.json qui est configuré pour :
